@@ -1,3 +1,7 @@
+
+// daynamic vabe data load kore the seita daynamic vabe dekhano hobe 
+
+
 function loadUsers2() {
 
     fetch('https://jsonplaceholder.typicode.com/users')
