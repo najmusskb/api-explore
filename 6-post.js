@@ -3,7 +3,6 @@ function LoadPost() {
         .then(res => res.json())
         .then(Data => findData(Data))
 }
-
 function findData(Data) {
     const postContainer = document.getElementById('post-container')
 
@@ -22,5 +21,4 @@ function findData(Data) {
         postContainer.appendChild(div);
     }
 }
-
 LoadPost()
