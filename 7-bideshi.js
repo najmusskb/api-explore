@@ -7,10 +7,6 @@ const LoadUsers = () => {
         .then(data => DisplayUsers(data.results))
 }
 
-
-
-
-
 const DisplayUsers = users => {
     // data find korechi 
     // console.log(users)
