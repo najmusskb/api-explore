@@ -77,5 +77,3 @@ const togglSpinner = IsLoading => {
         loadersection.classList.add('d-none')
     }
 }
-
-// LoadPhone()

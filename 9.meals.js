@@ -5,8 +5,8 @@ const LoadMeasl = (search) => {
         .then(res => res.json())
         .then(data => displayMeals(data.meals))
 
-
 }
+
 
 const displayMeals = (meals) => {
 
@@ -16,11 +16,11 @@ const displayMeals = (meals) => {
 
 
 
-    // console.log(meals);
+    console.log(meals);
 
     meals.forEach(meal => {
-        // console.log(meal)
-        // console.log(meal)
+
+        console.log(meal)
 
         const mealDiv = document.createElement('div');
         mealDiv.classList.add('col');
@@ -84,7 +84,7 @@ const DisplayMealDetails = meal => {
     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${meal.strMeal}</h5>
-             
+
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
 

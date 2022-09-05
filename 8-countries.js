@@ -5,7 +5,6 @@ const countriesLoad = () => {
         .then(data => displayCountries(data))
 }
 
-
 const displayCountries = countries => {
 
     // for (const display of countries) {
@@ -31,7 +30,6 @@ const displayCountries = countries => {
         <button onclick="loadCountriesDetails('${country.cca2}')"> Details </button>
         
 `;
-
         countriesContainer.appendChild(CountryDiv);
 
     });
@@ -56,6 +54,7 @@ const loadCountriesDetails = (code) => {
         .then(res => res.json())
         .then(arrayData => Displaycountriesdestails(arrayData[0]))
 }
+
 
 const Displaycountriesdestails = (countryDetails) => {
     console.log(countryDetails);

@@ -8,7 +8,7 @@ function pushDataToObject(Data) {
     const getMainSection = document.getElementById('main-section');
 
     for (const DataArray of Data) {
-        // console.log(DataArray)
+        console.log(DataArray)
         const makeDivData = document.createElement('div');
         makeDivData.innerHTML = `
          <h3>name:${DataArray.name}</h3>
@@ -20,3 +20,5 @@ function pushDataToObject(Data) {
         getMainSection.appendChild(makeDivData);
     }
 }
+
+AddButtonClick()

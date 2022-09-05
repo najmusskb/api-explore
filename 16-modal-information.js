@@ -128,7 +128,6 @@ document.getElementById('button-show-all').addEventListener('click', function ()
 
 
 // for modal And Data load
-
 const LoadPhoneDetais = async id => {
     const url = `https://openapi.programming-hero.com/api/phone/${id}`;
     const res = await fetch(url);
